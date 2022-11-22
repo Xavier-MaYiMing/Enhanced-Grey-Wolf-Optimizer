@@ -70,6 +70,7 @@ The EGWO converges at its 1,271-th iteration, and the global best value is 8050.
 ```
 
 #### Compared with the GWO on the shifted functions
+The GWO code: https://github.com/Xavier-MaYiMing/Grey-Wolf-Optimizer
 
 ##### Shifted sphere function
 
