@@ -11,20 +11,6 @@ import math
 import matplotlib.pyplot as plt
 
 
-# def obj(x):
-#     """
-#     Shifted Rastrigin function
-#     # Dimension: 30
-#     # Range: [-4.12, 6.12]
-#     """
-#     num = 0
-#     for i in range(len(x)):
-#         if not -4.12 <= x[i] <= 6.12:
-#             return 1e6
-#         num += (x[i] - 1) ** 2 - 10 * math.cos(2 * math.pi * (x[i] - 1)) + 10
-#     return num
-
-
 def obj(x):
     """
     The objective function of pressure vessel design
