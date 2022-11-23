@@ -92,7 +92,7 @@ def main(pop, iter, lb, ub):
                 if y > ub[j]:
                     pos[i][j] = pos[i][j] + random.random() * (ub[j] - pos[i][j])
                 elif y < lb[j]:
-                    pos[i][j] = pos[i][j] - random.random() * (lb[j] - pos[i][j])
+                    pos[i][j] = pos[i][j] + random.random() * (lb[j] - pos[i][j])
                 else:
                     pos[i][j] = y
             
